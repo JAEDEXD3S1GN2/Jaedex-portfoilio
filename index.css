@@ -1187,6 +1187,9 @@
    .proj img {
     height: 500px;
   }
+   .logo {
+    font-size: 15px;
+  }
 }
 
 @media screen and (min-width: 620px) {
