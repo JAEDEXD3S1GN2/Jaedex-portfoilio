@@ -1180,6 +1180,10 @@
   .f-btn {
     width: 290px;
   }
+
+  .nav-cont {
+    width: 100vw;
+  }
 }
 
 @media screen and (min-width: 620px) {
