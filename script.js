@@ -18,12 +18,12 @@ dark.addEventListener("click", (e) => {
 });
 
 bars.addEventListener("click", (e) => {
-  navlink.classList.remove("deactivated");
+  navlink.classList.add("activated");
   cloose.classList.add("activated");
 });
 
 cloose.addEventListener("click", (e) => {
   bars.classList.remove("deactivated");
   cloose.classList.remove("activated");
-  navlink.classList.add("deactivated");
+   navlink.classList.remove("activated");
 });
