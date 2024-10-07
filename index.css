@@ -1042,7 +1042,7 @@
 
 @media screen and (max-width: 600px) {
   .nav-links {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 20px;
     width: 150px;
@@ -1060,8 +1060,8 @@
     -o-transition: 1.5s;
   }
 
-  .nav-links.deactivated {
-    display: none;
+  .nav-links.activated {
+    display: flex;
   }
 
   .nav-links a.activated {
