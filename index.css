@@ -1184,6 +1184,9 @@
   .nav-cont {
     width: 100vw;
   }
+   .proj img {
+    height: 500px;
+  }
 }
 
 @media screen and (min-width: 620px) {
