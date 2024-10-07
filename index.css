@@ -1140,7 +1140,7 @@
   .cv-text {
     margin-left: 100px;
     font-size: 25px;
-    width: 250px;
+    width: 220px;
   }
 
   .btn {
@@ -1157,12 +1157,12 @@
   }
 
   .first-about {
-    margin-left: 20px;
+    margin-left: 5px;
     border-right: none;
   }
 
   .about-text {
-    padding-left: 54px;
+    padding-left: 24px;
     width: 300px;
   }
 
