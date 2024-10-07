@@ -1048,7 +1048,7 @@
     width: 150px;
     background-color: rgb(5, 112, 107);
     height: 100vh;
-    position: absolute;
+    position: fixed;
     align-items: end;
     padding-right: 10px;
     top: 0;
