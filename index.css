@@ -1100,6 +1100,10 @@
     color: white;
   }
 
+  .row {
+    padding-inline: 20px;
+  }
+  
   .bars.deactivated {
     display: none;
   }
