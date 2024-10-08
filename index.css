@@ -233,6 +233,10 @@
   font-size: 30px;
 }
 
+.nav-links a:hover {
+  color: yellow;
+}
+
 .icons i {
   border: 2px solid orange;
   padding-inline: 7px;
