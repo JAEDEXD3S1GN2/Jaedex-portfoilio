@@ -242,6 +242,9 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  animation: fade-right 0.7s ease forwards calc(0.3s * var(--i));
+  -webkit-animation: fade-right 0.7s ease forwards calc(0.3s * var(--i));
+  opacity: 0;
 }
 
 .icons i:hover {
