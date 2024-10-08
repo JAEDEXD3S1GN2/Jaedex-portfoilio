@@ -969,6 +969,10 @@
   box-shadow: 0 0 40px orange;
 }
 
+#bod {
+  overflow-x: hidden;
+}
+
 /* Light Mode */
 
 .body-light .nav-bar {
