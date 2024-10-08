@@ -1212,6 +1212,11 @@
   .services-list div p {
     width: 290px;
   }
+
+   /* light mode */
+  .body-light .pic-cont {
+    border-right: none;
+  }
 }
 
 @media screen and (min-width: 620px) {
