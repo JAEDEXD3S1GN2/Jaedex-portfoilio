@@ -1250,6 +1250,10 @@
   .body-light .pic-cont {
     border-right: none;
   }
+
+  .first-cv-c {
+        align-self: center;
+  }
 }
 
 @media screen and (min-width: 620px) {
