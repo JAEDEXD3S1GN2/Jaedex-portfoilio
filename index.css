@@ -1102,6 +1102,10 @@
     color: white;
   }
 
+    .sec-cont {
+    align-self: center;
+  }
+  
   .bars {
     font-size: 35px;
     padding-top: 30px;
