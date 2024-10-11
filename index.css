@@ -638,6 +638,15 @@
   align-items: center;
 }
 
+.main-img {
+  width: 470px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
 .Proj-head {
   text-align: center;
   font-family: "Satisfy", system-ui, -apple-system, BlinkMacSystemFont,
@@ -1200,6 +1209,12 @@
     justify-content: start;
   }
 
+  .main-img {
+    width: 340px;
+    margin-top: 20px;
+    margin-inline: auto;
+  }
+  
   .form-group input {
     width: 290px;
   }
