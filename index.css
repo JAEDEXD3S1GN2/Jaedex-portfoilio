@@ -1239,6 +1239,9 @@
     height: 500px;
     object-position: center;
   }
+  .proj-sub {
+  align-text: center;
+  }
    .logo {
     font-size: 15px;
   }
