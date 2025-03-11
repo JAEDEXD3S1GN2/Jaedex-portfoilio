@@ -739,7 +739,9 @@
 
 .first-cont {
   padding-top: 16px;
+  padding-inline: 20px;
 }
+
 
 .official {
   font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
@@ -1255,6 +1257,15 @@
     border-right: none;
   }
 
+  .position {
+    font-size: 30px;
+  }
+
+  .exp-head {
+    text-align: center;
+    width: 60%;
+  }
+  
   .first-cv-c {
         align-self: center;
   }
