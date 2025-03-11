@@ -1135,10 +1135,6 @@
     padding-left: 10px;
   }
 
-  .main-img {
-    width: 340px;
-  }
-
   .Education {
     display: flex;
     flex-direction: column;
