@@ -1264,6 +1264,10 @@ display: none;
     font-size: 30px;
   }
 
+  .project-sub {
+    text-align: center;
+  }
+
   .exp-head {
     text-align: center;
     width: 60%;
