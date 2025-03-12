@@ -1308,7 +1308,9 @@ display: none;
 .container {
   padding-inline: 10px;
 }
-  
+ nav.nav-bar {
+   padding-inline: 30px;
+ }
 }
 
 
