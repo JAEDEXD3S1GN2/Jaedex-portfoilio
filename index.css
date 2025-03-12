@@ -1280,6 +1280,11 @@ display: none;
         width: 200px;
         display: none;
   }
+
+  .cv-mobile-view {
+    display: flex;
+  }
+  
 }
 
 @media screen and (min-width: 620px) {
