@@ -1278,6 +1278,7 @@ display: none;
   .first-cv-c {
         align-self: center;
         width: 200px;
+        display: none;
   }
 }
 
