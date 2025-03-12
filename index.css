@@ -1309,7 +1309,7 @@ display: none;
   padding-inline: 10px;
 }
  nav.nav-bar {
-   padding-inline: 30px;
+   padding-inline: 0px;
  }
 }
 
