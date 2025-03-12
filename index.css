@@ -1180,7 +1180,7 @@ display: none;
     flex-direction: column;
     height: 370px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-
+    padding-inline: 10px;
   }
   .cv-text {
     margin-left: 200px;
@@ -1294,6 +1294,8 @@ display: none;
   .cv-mobile-view {
     display: flex;
   }
+
+  
   
 }
 
