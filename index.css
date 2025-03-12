@@ -280,6 +280,10 @@
   padding-right: 50px;
 }
 
+.cv-mobile-view {
+display: none;
+}
+
 .about-text {
   font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
@@ -1281,6 +1285,8 @@
   .mob-icons {
     display: none;
   }
+
+  
 
   .top {
     display: none;
