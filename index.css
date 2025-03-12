@@ -1089,9 +1089,6 @@
 
   .nav-links a.activated {
     display: block;
-  }
-
-  body {
     overflow-x: hidden;
   }
 
