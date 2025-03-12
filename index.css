@@ -1084,6 +1084,10 @@
     overflow-x: hidden;
   }
 
+  body {
+  overflow-x: hidden;
+  }
+  
   .nav-links.activated {
     display: flex;
     overflow-x: hidden;
@@ -1174,6 +1178,7 @@
     margin-left: 200px;
     font-size: 25px;
     width: 220px;
+    overflow-x: hidden;
   }
 
   .btn {
@@ -1230,6 +1235,7 @@
 
   .nav-cont {
     width: 100vw;
+    overflow-x: hidden;
   }
    .proj img {
     height: 500px;
@@ -1258,6 +1264,7 @@
   .exp-head {
     text-align: center;
     width: 60%;
+    overflow-x: hidden;
   }
   
   .first-cv-c {
