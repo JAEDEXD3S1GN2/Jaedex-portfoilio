@@ -1081,15 +1081,16 @@
     -moz-transition: 1.5s;
     -ms-transition: 1.5s;
     -o-transition: 1.5s;
+    overflow-x: hidden;
   }
 
   .nav-links.activated {
     display: flex;
+    overflow-x: hidden;
   }
 
   .nav-links a.activated {
     display: block;
-    overflow-x: hidden;
   }
 
   
