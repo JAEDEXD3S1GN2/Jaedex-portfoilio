@@ -1309,7 +1309,8 @@ display: none;
   padding-inline: 10px;
 }
  nav.nav-bar {
-   padding-inline: 0px;
+   padding-inline: 10px;
+   justify-content: unset;
  }
 }
 
