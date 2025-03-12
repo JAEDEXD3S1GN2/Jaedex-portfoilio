@@ -1310,8 +1310,6 @@ display: none;
 }
  nav.nav-bar {
    padding-inline: 10px;
-   gap: 20px;
-   justify-content: initial;
  }
 }
 
