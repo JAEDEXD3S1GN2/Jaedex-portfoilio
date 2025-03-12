@@ -1280,6 +1280,9 @@ display: none;
         display: none;
   }
 
+  
+  
+
  .cv-text-m {
     font-family: "Satisfy", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
@@ -1302,6 +1305,10 @@ display: none;
  .services-list div p {
    width: 270px;
  }
+.container {
+  padding-inline: 10px;
+}
+  
 }
 
 
