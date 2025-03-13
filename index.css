@@ -1640,7 +1640,7 @@ display: none;
   .cv-cont {
     display: flex;
     flex-direction: column;
-    height: 290px;
+    height: 320px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     padding-inline: 10px;
   }
@@ -1676,7 +1676,7 @@ display: none;
 
   .about-text {
     padding-left: 14px;
-    width: 330px;
+    width: 300px;
   }
 
   .row {
