@@ -1533,20 +1533,6 @@ display: none;
 
 }
 
-@media screen and (max-width: 420px) { 
-  .form-group input {
-    width: 370px;
-  }
-
-  .form-group textarea {
-    width: 370px;
-  }
-
-  .f-btn {
-    width: 370px;
-  }
-}
-
 
 @media screen and (max-width: 600px) {
     .nav-links {
@@ -1706,15 +1692,15 @@ display: none;
   }
   
   .form-group input {
-    width: 450px;
+    width: 90%;
   }
 
   .form-group textarea {
-    width: 450px;
+    width: 90%;
   }
 
   .f-btn {
-    width: 450px;
+    width: 90%;
   }
 
   .nav-cont {
