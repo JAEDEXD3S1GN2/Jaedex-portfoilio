@@ -1535,15 +1535,15 @@ display: none;
 
 @media screen and (max-width: 420px) { 
   .form-group input {
-    width: 390px;
+    width: 370px;
   }
 
   .form-group textarea {
-    width: 390px;
+    width: 370px;
   }
 
   .f-btn {
-    width: 390px;
+    width: 370px;
   }
 }
 
