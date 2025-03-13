@@ -1533,7 +1533,22 @@ display: none;
 
 }
 
-@media screen and (max-width: 600px) {\
+@media screen and (max-width: 420px) { 
+  .form-group input {
+    width: 450px;
+  }
+
+  .form-group textarea {
+    width: 450px;
+  }
+
+  .f-btn {
+    width: 450px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
     .nav-links {
     display: none;
     flex-direction: column;
