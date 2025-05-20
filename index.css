@@ -1402,7 +1402,7 @@
   .rowCard {
     display: flex;
     flex-direction: column;
-    gap: 550px; }
+    gap: 610px; }
   .row {
     flex-direction: column;
     gap: 30px;
@@ -1625,6 +1625,7 @@
   .card {
     width: 320px; }
     .card__side {
+      height: 550px;
       width: 320px; }
   #popup .popup-content img {
     max-width: 330px; } }
