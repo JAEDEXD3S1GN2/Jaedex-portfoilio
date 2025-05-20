@@ -217,6 +217,11 @@
   -webkit-animation: fade-right 0.7s ease forwards calc(0.3s * var(--i));
   opacity: 0; }
 
+.icons a {
+  text-decoration: none;
+  color: rgba(165, 42, 42, 0.685);
+}
+
 .icons i:hover {
   background: orange;
   color: #05706b;
