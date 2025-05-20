@@ -1,0 +1,241 @@
+// $pulse-color: #4facfe; // Customize this
+// $pulse-size: 100px;
+// $pulse-speed: 1.2s;
+
+// ----------------------------------
+// Keyframes
+// ----------------------------------
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@mixin pulse-animation($duration: $pulse-speed) {
+  animation: pulse $duration ease-in-out 1s;
+}
+
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  width: 400px;
+  &__side {
+    color: #fff;
+    font-size: 2rem;
+    height: 480px;
+    width: 400px;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+    &--front {
+      background-color: rgba(165, 42, 42, 0.685);
+    }
+
+    &--back {
+      color: black;
+      transform: rotateY(180deg);
+
+      &-1 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-secondary-light,
+          $color-secondary-dark
+        );
+      }
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+
+  &__picture {
+    background-size: cover;
+    height: 13rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    &--1 {
+      background-image: url("/assets/edu.jpeg");
+      background-position: center;
+    }
+    &--2 {
+      background-image: url("/assets/Exp.jpeg");
+    }
+    &--3 {
+      background-image: url("/assets/Skills.jpg");
+    }
+  }
+
+  &__heading {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: $color-white;
+    position: absolute;
+    top: 7rem;
+    width: 80%;
+    right: 1.5rem;
+  }
+
+  &__heading-span {
+    padding: 0.5rem 1rem;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-heading-light, 0.85),
+      rgba($color-heading-dark, 0.85)
+    );
+    font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+  }
+
+  &__details {
+    padding: 2rem;
+    ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto;
+      li {
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid #feee;
+        }
+      }
+    }
+  }
+
+  // Back side
+
+  &__headerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+  }
+
+  &__subContent {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 5px;
+  }
+
+  &__HCSUB {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-inline: 20px;
+  }
+
+  &__subCHaading {
+    font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+  }
+
+  &__subCText {
+    font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+  }
+
+  &__subCbtn {
+    width: max-content;
+    padding-inline: 20px;
+    padding-block: 5px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 35px;
+    border: 1px solid rgba($color-black, 0.15);
+    align-self: center;
+  }
+  &__subCbtn:hover {
+    animation: pulse 1.5s ease-out infinite;
+  }
+}
+
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.hidden {
+    display: none;
+  }
+
+  .popup-content {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    img {
+      max-width: 400px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    #closeBtn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 320px;
+    &__side {
+      width: 320px;
+    }
+  }
+
+  #popup {
+    .popup-content {
+      img {
+        max-width: 330px;
+      }
+    }
+  }
+}
