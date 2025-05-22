@@ -75,7 +75,7 @@
   justify-content: space-between;
   padding-inline: 35px;
   align-items: center;
-  background-color: #05706b;
+  background-color: black;
   border-bottom: 2px solid white; }
 
 .nav-cont {
@@ -84,7 +84,7 @@
   width: 100%; }
 
 .text {
-  color: black; }
+  color: white; }
 
 .container {
   display: flex;
@@ -396,7 +396,7 @@
   */ }
 
 .cont {
-  background-color: rgba(5, 112, 107, 0.932);
+  background-color: black;
   padding-top: 120px; }
 
 .dark-mode {
