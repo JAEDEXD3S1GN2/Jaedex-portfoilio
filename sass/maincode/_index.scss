@@ -252,6 +252,11 @@
   opacity: 0;
 }
 
+.icons a {
+  text-decoration: none;
+  color: rgba(165, 42, 42, 0.685);
+}
+
 .icons i:hover {
   background: orange;
   color: rgb(5, 112, 107);
